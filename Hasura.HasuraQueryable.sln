@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hasura.HasuraQueryable", "Hasura.HasuraQueryable\Hasura.HasuraQueryable.csproj", "{800687B7-39E7-4A22-9295-14DB864E3310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hasura.HasuraQueryable.Tests", "Hasura.HasuraQueryable.Tests\Hasura.HasuraQueryable.Tests.csproj", "{9C0EBAF1-EE98-419C-A754-8C43F4C52C44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{800687B7-39E7-4A22-9295-14DB864E3310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{800687B7-39E7-4A22-9295-14DB864E3310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{800687B7-39E7-4A22-9295-14DB864E3310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0EBAF1-EE98-419C-A754-8C43F4C52C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0EBAF1-EE98-419C-A754-8C43F4C52C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0EBAF1-EE98-419C-A754-8C43F4C52C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0EBAF1-EE98-419C-A754-8C43F4C52C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
