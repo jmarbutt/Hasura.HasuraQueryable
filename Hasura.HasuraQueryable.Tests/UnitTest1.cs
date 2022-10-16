@@ -10,6 +10,14 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        var config = new HasuraConfiguration()
+        {
+            Url = "http://localhost:8080/v1/graphql"
+        };
+
+        var context = new SampleContext(config);
+
+        var customers = from c in context.customers
+            select c;
     }
 }
